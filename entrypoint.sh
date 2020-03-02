@@ -62,7 +62,7 @@ EOF
 
 if [ -z $@ ]
 then
-    echo "" | mutt -F /data/muttrc -s "G Suite App-Specific Password Test `date +%y-%m-%d-%H%M%S`" -b email -- $APP_USER && echo -e "Email sent! Check your inbox."
+    echo "" | mutt -F /data/muttrc -s "G Suite App-Specific Password Test `date +%y-%m-%d-%H%M%S`" -i email -- $APP_USER && echo -e "Email sent! Check your inbox."
 else
     mutt -F /data/muttrc
 fi
