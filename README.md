@@ -1,5 +1,9 @@
 # gasp
 
+![CI](https://github.com/ZalgoNoise/gasp/workflows/CI/badge.svg)
+
+________
+
 
 ### Google App Specific Password Validator 
 
